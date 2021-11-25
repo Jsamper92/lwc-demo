@@ -1,0 +1,35 @@
+:host {
+
+  /* Styling Hooks */
+  /* ------------- */
+
+  /* Border Radius */
+  --sds-c-button-radius-border: 30px;
+  /* Background */
+  --sds-c-button-color-background: var(--sds-g-color-neutral-base-2);
+  /* Border */
+  --sds-c-button-color-border: transparent;
+  /* Padding */
+  /* Base */
+  --sds-c-button-spacing-block-start: 1rem;
+  --sds-c-button-spacing-block-end: 1rem;
+  --sds-c-button-spacing-inline-start: 2rem;
+  --sds-c-button-spacing-inline-end: 2rem;
+  /* Brand */
+  --sds-c-button-brand-spacing-inline-start: 3rem;
+  --sds-c-button-brand-spacing-inline-end: 3rem;
+  /* Height */
+  --sds-c-button-line-height: 1.35rem;
+  /* Shadow */
+  --sds-c-button-shadow: 0 3px 6px 0 rgba(0,0,0,.15), 0 1px 3px 0 rgba(0,0,0,.05);
+}
+
+/* Global styling hooks coming soon - scoping styles to component for now */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+}

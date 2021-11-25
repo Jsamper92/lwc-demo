@@ -1,0 +1,72 @@
+
+:host {
+  /* Styles for component */
+  display: block;
+  position: relative;
+  overflow: hidden;
+
+  /* Product brand reference */
+  --product-color-1: #fff;
+  --product-color-2: #000;
+  --product-color-3: #ffffffcc;
+  --product-color-4: #31E989;
+  --product-border-radius: 2px;
+
+  /* Styling Hooks */
+  /* ------------- */
+
+  /* Badge */
+  --sds-c-badge-color-background: var(--product-color-1);
+  --sds-c-badge-radius-border: var(--product-border-radius);
+  --sds-c-badge-line-height: 1;
+  /* Button */
+  /* Text */
+  --sds-c-button-text-color: var(--product-color-1);
+  --sds-c-button-text-color-hover: var(--product-color-2);
+  --sds-c-button-text-color-active: var(--product-color-2);
+  /* Border */
+  --sds-c-button-sizing-border: 2px;
+  /* Neutral */
+  --sds-c-button-neutral-color-border: var(--product-color-1);
+  --sds-c-button-neutral-color-border-hover: transparent;
+  --sds-c-button-neutral-color-border-active: transparent;
+  --sds-c-button-neutral-text-color-hover: var(--product-color-1);
+  --sds-c-button-neutral-color-background: transparent;
+  --sds-c-button-neutral-color-background-hover: var(--product-color-3);
+  --sds-c-button-neutral-color-background-active: var(--product-color-3);
+  /* Brand */
+  --sds-c-button-brand-color-background: var(--product-color-1);
+  --sds-c-button-brand-color-background-hover: var(--product-color-3);
+  --sds-c-button-brand-color-background-active: var(--product-color-3);
+  --sds-c-button-brand-color-border-active: transparent;
+  --sds-c-button-brand-color-border-hover: transparent;
+  --sds-c-button-brand-color-border: transparent;
+  --sds-c-button-brand-text-color: var(--product-color-2);
+  --sds-c-button-brand-text-color-hover: var(--product-color-2);
+  --sds-c-button-brand-text-color-active: var(--product-color-2);
+  --sds-c-button-brand-spacing-inline-start: 1.25rem;
+  --sds-c-button-brand-spacing-inline-end: 1.25rem;
+}
+
+/* Position badge in top right corner */
+lightning-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+img {
+  object-fit: cover;
+  height: 360px;
+  width: 100%;
+}
+
+:host > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(0,0,0, 0.15);
+  color: var(--product-color-1);
+}

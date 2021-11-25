@@ -1,0 +1,54 @@
+:host {
+  /* Store local brand colors */
+  /* ------------- */
+  --product-color-1: #164da0;
+  --product-color-2: #2a343d;
+  --product-color-3: #1773cf;
+  --product-color-4: #ffd900;
+  --product-color-5: #f2faff;
+  --product-color-6: #f0f1f2;
+
+  /* Styling Hooks */
+  /* ------------- */
+  --sds-c-accordion-section-spacing-block-start: 32px;
+  --sds-c-accordion-section-spacing-block-end: 32px;
+  --sds-c-accordion-heading-font-size: 1rem;
+  --sds-c-accordion-heading-text-color: var(--product-color-2);
+
+  --sds-c-icon-color-foreground-default: var(--product-color-3);
+
+  --sds-c-button-brand-color-background: var(--product-color-4);
+  --sds-c-button-brand-color-border: var(--sds-c-button-brand-color-background);
+  --sds-c-button-brand-text-color: var(--product-color-2);
+  --sds-c-button-brand-color-background-hover: var(--sds-c-button-brand-color-background);
+  --sds-c-button-brand-color-border-hover: var(--sds-c-button-brand-color-background);
+  --sds-c-button-brand-text-color-hover: var(--sds-c-button-brand-text-color);
+
+  --sds-c-button-line-height: 1.35;
+  --sds-c-button-spacing-block-start: 1rem;
+  --sds-c-button-spacing-block-end: 1rem;
+  --sds-c-button-brand-spacing-inline-start: 2rem;
+  --sds-c-button-brand-spacing-inline-end: 2rem;
+
+  --sds-c-card-color-background: var(--product-color-6);
+  --sds-c-card-sizing-border: 0;
+  --sds-c-card-shadow: none;
+  --sds-c-card-spacing-block: 1.25rem;
+  --sds-c-card-body-spacing-inline: 1.25rem;
+
+  --sds-c-input-color-background: var(--product-color-5);
+  --sds-c-input-color-border: transparent;
+  --sds-c-input-color-border-focus: var(--sds-c-input-color-border);
+  --sds-c-input-radius-border: 5px 5px 0 0;
+  --sds-c-input-text-color: var(--product-color-2);
+  --sds-c-input-shadow: 0 1px 0 0 var(--product-color-2);
+  --sds-c-input-shadow-focus: 0 2px 0 0 var(--product-color-1);
+
+  --sds-c-select-color-background: var(--sds-c-input-color-background);
+  --sds-c-select-color-border: var(--sds-c-input-color-border);
+  --sds-c-select-color-border-focus: var(--sds-c-input-color-border);
+  --sds-c-select-radius-border: var(--sds-c-input-radius-border);
+  --sds-c-select-text-color: var(--sds-c-input-text-color);
+  --sds-c-select-shadow: var(--sds-c-input-shadow);
+  --sds-c-select-shadow-focus: var(--sds-c-input-shadow-focus);
+}

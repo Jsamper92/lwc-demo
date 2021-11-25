@@ -1,0 +1,32 @@
+:host {
+  /** Colors **/
+  --sds-c-card-color-background: #080707;
+  --sds-c-card-text-color: #fff;
+
+  /** Radius **/
+  --sds-c-card-radius-border: 16px;
+
+  /** Heading **/
+  --sds-c-card-heading-font-weight: 400;
+
+  /** Footer **/
+  --sds-c-card-footer-color-border: transparent;
+  --sds-c-card-footer-spacing-block-start: 12px;
+  --sds-c-card-footer-spacing-block-end: 24px;
+
+  /** Button **/
+  --sds-c-button-text-font-weight: 700;
+  --sds-c-button-text-color: #fff;
+  --sds-c-button-radius-border: 24px;
+  --sds-c-button-color-border: #fff;
+  --sds-c-button-sizing-border: 2px;
+  --sds-c-button-spacing-block-start: 8px;
+  --sds-c-button-spacing-block-end: 8px;
+  --sds-c-button-spacing-inline-start: 24px;
+  --sds-c-button-spacing-inline-end: 24px;
+
+  /** Badge **/
+  --sds-c-badge-color-background: #0176D3;
+  --sds-c-badge-radius-border: 4px;
+  --sds-c-badge-text-color: #fffff;
+}

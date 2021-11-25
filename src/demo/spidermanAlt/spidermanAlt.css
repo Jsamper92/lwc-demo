@@ -1,0 +1,27 @@
+:host {
+  /* Store local brand colors */
+  --product-color-1: #d53b00;
+  --product-color-2: #c63700;
+  --product-color-3: #5693F5;
+  --product-color-4: #fff;
+
+  /* Styling Hooks */
+  /* ------------- */
+  --sds-c-button-radius-border: 0;
+  --sds-c-button-line-height: 2rem;
+  --sds-c-badge-radius-border: 3px;
+  --sds-c-badge-color-background: var(--product-color-4);
+  --sds-c-badge-color-border: var(--product-color-3);
+  --sds-c-badge-text-color: var(--sds-c-badge-color-border);
+  --sds-c-button-brand-spacing-inline-start: 1.5rem;
+  --sds-c-button-brand-spacing-inline-end: 1.5rem;
+  --sds-c-button-brand-color-background:var(--product-color-1);
+  --sds-c-button-brand-color-border: var(--product-color-1);
+  --sds-c-button-brand-color-background-hover: var(--product-color-2);
+  --sds-c-button-brand-color-background-active: var(--sds-c-button-brand-color-background-hover);
+  --sds-c-button-brand-color-border-hover: var(--sds-c-button-brand-color-background-hover);
+  --sds-c-button-brand-color-border-active: var(--sds-c-button-brand-color-border-hover);
+  --sds-c-button-shadow: inset var(--product-color-1) 0 0 0 2px, inset var(--product-color-4) 0 0 0 3px;
+  --sds-c-tabs-item-color-border-active: var(--product-color-1);
+  --sds-c-tabs-item-color-border-hover: var(--product-color-2);
+}

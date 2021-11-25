@@ -1,0 +1,82 @@
+:host {
+  --tdx21-text-color: #303030;
+  --tdx21-color-brand: #250f8f;
+  display: block;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 4rem 1fr;
+  gap: 3rem;
+  max-width: 68rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  max-width: 12em;
+}
+
+.h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.subheader {
+  font-size: 2rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+header {
+  background-color: #250f8f;
+  color: #fff;
+  margin-bottom: 6rem;
+  padding: 0 4.5rem;
+}
+
+.masthead {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-image: url('/public/images/astro-standing-desk.png');
+  background-repeat: no-repeat;
+  background-size: auto 124%;
+  background-position: right bottom -5rem;
+}
+
+.color-brand {
+  color: #2b8dbf;
+}
+
+.pointer {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  justify-content: center;
+}
+
+.fork {
+  color: var(--tdx21-text-color);
+  margin: 12rem 0;
+  text-align: center;
+}
+
+.fork__text {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.fork__link {
+  display: inline-block;
+  color: var(--tdx21-color-brand);
+  border: 4px solid var(--tdx21-color-brand);
+  border-radius: 64px;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}

@@ -1,0 +1,192 @@
+<template>
+  <lightning-accordion
+    active-section-name="c"
+  >
+    <lightning-accordion-section name="a" label="Features & Specs">
+      <h3 class="slds-text-heading_small slds-m-bottom_medium"><strong>Features</strong></h3>
+      <lightning-layout multiple-rows>
+        <lightning-layout-item size="6" padding="around-small">ABS Brakes</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Air Conditioning</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">AM/FM Stereo</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Automated Cruise Control</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Automatic Transmission</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Auxiliary Audio Input</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Bluetooth Technology</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">CD Audio</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Cloth Seats</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Entune</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Lane Departure Warning</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Overheard Airbags</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Power Locks</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Power Mirrors</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Power Windows</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Rear Defroster</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Rear View Camera</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Side Airbags</lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">Traction Control</lightning-layout-item>
+      </lightning-layout>
+      <h3 class="slds-text-heading_small slds-m-top_large slds-m-bottom_medium"><strong>Specifications</strong></h3>
+      <lightning-layout multiple-rows>
+        <lightning-layout-item size="8" padding="around-small">
+          <strong>City/Highway Gas Mileage</strong>
+        </lightning-layout-item>
+        <lightning-layout-item size="4" padding="around-small">23/30 mpg</lightning-layout-item>
+        <lightning-layout-item size="8" padding="around-small">
+          <strong>Exterior/Interior Color</strong>
+        </lightning-layout-item>
+        <lightning-layout-item size="4" padding="around-small">Silver/Black</lightning-layout-item>
+        <lightning-layout-item size="8" padding="around-small">
+          <strong>Transmission</strong>
+        </lightning-layout-item>
+        <lightning-layout-item size="4" padding="around-small">Automatic</lightning-layout-item>
+      </lightning-layout>
+    </lightning-accordion-section>
+
+    <lightning-accordion-section name="b" label="Warranties & MaxCare®">
+      <div class="slds-media">
+        <div class="slds-media__figure">
+          <lightning-icon
+            icon-name="utility:success"
+            alternative-text="We have it!"
+            title="Success"
+            size="x-small"
+          ></lightning-icon>
+        </div>
+        <div class="slds-media__body">
+          <h3><strong>7-day money-back guarantee</strong></h3>
+          <p>You have 7 days to return your car for a full refund regardless of the reason.</p>
+        </div>
+      </div>
+
+      <div class="slds-media">
+        <div class="slds-media__figure">
+          <lightning-icon
+            icon-name="utility:success"
+            alternative-text="We have it!"
+            title="Success"
+            size="x-small"
+          ></lightning-icon>
+        </div>
+        <div class="slds-media__body">
+          <h3><strong>90-day or 4,000 mile limited warranty</strong></h3>
+          <p>Guaranteed coverage on all parts and labor for covered systems during the warranty period, with zero cost to you.</p>
+        </div>
+      </div>
+
+      <div class="slds-media">
+        <div class="slds-media__figure">
+          <lightning-icon
+            icon-name="utility:success"
+            alternative-text="We have it!"
+            title="Success"
+            size="x-small"
+          ></lightning-icon>
+        </div>
+        <div class="slds-media__body">
+          <h3><strong>Manufacturer Warranty</strong></h3>
+          <p>Balance of 3 Years or 36,000 Miles may apply. See store for details.</p>
+        </div>
+      </div>
+
+      <div class="slds-box slds-m-top_medium">
+        <div class="slds-media">
+          <div class="slds-media__figure">
+            <lightning-icon
+              icon-name="utility:shield"
+              alternative-text="Protection"
+              title="Protection"
+              size="medium"
+            ></lightning-icon>
+          </div>
+          <div class="slds-media__body">
+            <h3><strong>Optional MaxCare® protection</strong></h3>
+            <p>Coverage up to 150,000 odometer miles or 60 months</p>
+            <p><a href="#">See coverage and benefits</a></p>
+          </div>
+        </div>
+      </div>
+    </lightning-accordion-section>
+
+    <lightning-accordion-section name="c" label="Can I afford it?">
+      <div class="slds-p-bottom_medium">
+        <div class="slds-form-element">
+          <label class="slds-form-element__label" for="select-01">Credit Score</label>
+          <div class="slds-form-element__control">
+            <div class="slds-select_container">
+              <select class="slds-select" id="select-01">
+                <option value="0">Excellent (800+ FICO® Score)</option>
+                <option value="1">Very Good (740-799 FICO® Score)</option>
+                <option value="2">Good (670-739 FICO® Score)</option>
+                <option value="3">Fair (580-669 FICO® Score)</option>
+                <option value="4">Challenged (&lt; 580 FICO® Score)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <lightning-layout pull-to-boundary="small">
+          <lightning-layout-item padding="horizontal-small">
+            <lightning-input type="text" label="Down payment" value="$2000"></lightning-input>
+          </lightning-layout-item>
+          <lightning-layout-item padding="horizontal-small">
+            <lightning-input type="text" label="Term Length" value="72 months"></lightning-input>
+          </lightning-layout-item>
+        </lightning-layout>
+      </div>
+
+      <lightning-card title="Summary**">
+        <lightning-layout>
+          <lightning-layout-item>
+            <span class="slds-text-color_weak">Vehicle Price</span>
+          </lightning-layout-item>
+          <lightning-layout-item alignment-bump="left">
+            $21,998*
+          </lightning-layout-item>
+        </lightning-layout>
+        <lightning-layout>
+          <lightning-layout-item>
+            <span class="slds-text-color_weak">Est. Tax, Titles, & Fees (CA)</span>
+          </lightning-layout-item>
+          <lightning-layout-item alignment-bump="left">
+            + $3,450
+          </lightning-layout-item>
+        </lightning-layout>
+        <lightning-layout>
+          <lightning-layout-item>
+            <span class="slds-text-color_weak">Down Payment</span>
+          </lightning-layout-item>
+          <lightning-layout-item alignment-bump="left">
+            - $2,000
+          </lightning-layout-item>
+        </lightning-layout>
+        <lightning-layout>
+          <lightning-layout-item>
+            <h3 class="slds-text-heading_small"><strong>Total Finance Amount</strong></h3>
+          </lightning-layout-item>
+          <lightning-layout-item alignment-bump="left">
+            $23,448
+          </lightning-layout-item>
+        </lightning-layout>
+
+        <div class="slds-text-align_center">
+          <hr />
+          <h3 class="slds-text-heading_small">
+            <strong>Estimated Monthly Payment</strong>
+          </h3>
+          <h4 class="slds-text-heading_large slds-m-vertical_medium">
+            <strong>$338 - $373</strong>
+          </h4>
+          <h5 class="slds-text-color_inverse-weak">
+            <strong>Estimated APR 5% - 8.5%</strong>
+          </h5>
+          <hr />
+          <lightning-button label="Get Pre-Approved" variant="brand"></lightning-button>
+          <div class="slds-text-color_weak slds-m-top_xx-small">
+            <small>Save time in-store. Apply in a few simple steps.</small>
+          </div>
+        </div>
+
+      </lightning-card>
+    </lightning-accordion-section>
+  </lightning-accordion>
+</template>
